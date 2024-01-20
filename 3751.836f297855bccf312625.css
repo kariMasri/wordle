@@ -42,5 +42,34 @@
 .Ad-module_adContainer__ZAFEc{border-bottom:1px solid #e6e6e6;box-shadow:inset 0 0 60px -10px rgba(0,0,0,.07);text-align:center;min-height:300px;overflow:hidden;position:relative}.Ad-module_adContainer__ZAFEc>*:first-child{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.Ad-module_adContainer__ZAFEc:empty{border:none}.Ad-module_hasAdLabel__IXofl:empty:before{content:"advertisement";color:#bbb;font-size:12px;border:1px solid #ccc;padding:8px 12px;display:block;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}
 .App-module_gameContainer__K_CBh{position:relative}.App-module_game__yruqo{width:100%;max-width:var(--game-max-width);margin:0 auto;height:calc(100% - var(--header-height));display:flex;flex-direction:column}.pz-offline-ticker{position:absolute;left:0;width:100%;z-index:2;font-weight:bold}.pz-offline-ticker svg path{fill:var(--white)}
 .StatsSelectionTool-module_container__meUAX{height:100%;display:flex;flex-direction:column;align-items:center;padding:0 16px}.StatsSelectionTool-module_header__oZIc5{padding:15px 0px;display:flex;justify-content:center;margin-bottom:32px}.StatsSelectionTool-module_gamesIcon__spDD2{width:95px;height:18px}.StatsSelectionTool-module_form__eOT7F{flex:1;display:flex;max-width:var(--game-max-width);flex-direction:column}.StatsSelectionTool-module_form__eOT7F fieldset{margin-bottom:40px}.StatsSelectionTool-module_description__dmLIg{font-family:"nyt-franklin-400";font-size:18px;line-height:1.5;text-align:center;margin-bottom:1em;padding:0 24px;color:var(--color-tone-1)}.StatsSelectionTool-module_description__dmLIg .StatsSelectionTool-module_bold__zqF2S{font-family:"nyt-franklin-600"}.StatsSelectionTool-module_option___tbeV{margin-top:20px;cursor:pointer;-webkit-tap-highlight-color:rgba(0,0,0,0);display:flex;flex-direction:column;align-items:stretch}.StatsSelectionTool-module_optionHeader__PN2q0{display:flex;justify-content:space-between;margin-bottom:6px;width:calc(100% - 8px);padding:0 4px;color:var(--color-tone-12)}.StatsSelectionTool-module_optionHeader__PN2q0 .StatsSelectionTool-module_label__HCsqe{text-transform:uppercase;font-family:"nyt-franklin";font-size:11px;font-weight:800}.StatsSelectionTool-module_optionHeader__PN2q0 .StatsSelectionTool-module_lastSaved__EBJVD{font-family:"nyt-franklin-500";font-size:10px}.StatsSelectionTool-module_box__KSSH_{background-color:var(--color-tone-6);padding:12px;margin:0 3px;outline:1px solid var(--color-tone-1);border-radius:8px}.StatsSelectionTool-module_box__KSSH_.StatsSelectionTool-module_selected__UlXC4{outline-width:3px}.StatsSelectionTool-module_box__KSSH_.StatsSelectionTool-module_unselected__CmIQE{opacity:.4}.StatsSelectionTool-module_box__KSSH_ .StatsSelectionTool-module_boxTop__Jv24G{display:flex;justify-content:space-between;margin-bottom:12px}.StatsSelectionTool-module_box__KSSH_ .StatsSelectionTool-module_boxBottom__aFGVF{font-family:"nyt-franklin";font-size:12px;display:flex;justify-content:flex-end;color:var(--color-tone-1)}.StatsSelectionTool-module_box__KSSH_ .StatsSelectionTool-module_boxBottom__aFGVF.StatsSelectionTool-module_incomplete__oy1ka{color:var(--warning-red);font-weight:bold;font-size:13px}.StatsSelectionTool-module_radio__aXqLj{align-self:flex-start;margin-top:4px;margin-left:4px}.StatsSelectionTool-module_stats__f99Fo{width:75%;color:var(--color-tone-1)}.StatsSelectionTool-module_buttonContainer__wiJe0{display:flex;align-items:center}.StatsSelectionTool-module_submitButton__yazh7{border:none;width:100%;height:3em;border-radius:1.5em;align-content:center;letter-spacing:.05em;margin:0 10px 12px;background:var(--color-tone-1);color:var(--color-tone-7);font-size:16px;font-family:"nyt-franklin-600";line-height:28px;cursor:pointer;padding:0 2em}.StatsSelectionTool-module_submitButton__yazh7:disabled{background:var(--color-tone-7);color:var(--color-tone-1);opacity:.4;border:1px solid var(--color-tone-1)}.StatsSelectionTool-module_back__fZ22v{position:absolute;display:flex;align-items:center;height:var(--header-height);top:0;left:var(--header-padding-x)}@media(max-height: 600px){.StatsSelectionTool-module_header__oZIc5{margin-bottom:8px}.StatsSelectionTool-module_form__eOT7F fieldset{margin-bottom:16px}.StatsSelectionTool-module_option___tbeV{margin-top:12px}}
+@font-face {
+  font-family: 'FranklinNormal700';
+  src: local('FranklinNormal700'), url('/fonts/franklin/franklin-normal-700.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'FranklinNormal600';
+  src: local('FranklinNormal600'), url('/fonts/franklin/franklin-normal-600.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'FranklinNormal500';
+  src: local('FranklinNormal500'), url('/fonts/franklin/franklin-normal-500.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'franklinNormal400';
+  src: local('franklinNormal400'), url('/fonts/franklin/franklin-normal-400.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'franklinNormal300';
+  src: local('franklinNormal300'), url('/fonts/franklin/franklin-normal-300.woff2') format('woff2');
+  font-weight: 300;
+}
+
 
 /*# sourceMappingURL=3751.836f297855bccf312625.css.map*/
